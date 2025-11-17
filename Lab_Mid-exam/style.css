@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f5f5f5;
+}
+
+.article, .comment-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.stats {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label { font-weight: bold; }
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea { height: 100px; }
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+
+.star-rating span {
+    font-size: 30px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.star-rating .selected {
+    color: gold;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.single-comment {
+    background: #fafafa;
+    padding: 12px;
+    border-left: 4px solid #007bff;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.rating-display {
+    color: gold;
+    font-size: 18px;
+    margin-top: 5px;
+}
